@@ -1,0 +1,44 @@
+[
+    {
+        "class": "AP Calculus BC",
+        "teacher": "Mr. Drummond",
+        "room": "D219",
+        "days": ["A", "B", "C", "E", "F"]
+    },
+    {
+        "class": "Creative Foods",
+        "teacher": "Mrs. Blair",
+        "room": "B105",
+        "days": ["A", "B", "D", "E", "F"]
+    },
+    {
+        "class": "Honors NJIT IS219 Advanced Website Development WDPP",
+        "teacher": "Mrs. Herbert",
+        "room": "B114",
+        "days": ["A", "C", "D", "E", "G"]
+    },
+    {
+        "class": "AP Statistics",
+        "teacher": "Mr. Patterson",
+        "room": "D201",
+        "days": ["B", "C", "D", "F", "G"]
+    },
+    {
+        "class": "AP English Language & Composition",
+        "teacher": "Mrs. LaPlaga",
+        "room": "C106",
+        "days": ["A", "B", "D", "E", "G"]
+    },
+    {
+        "class": "Physical Education",
+        "teacher": "Mrs. Hastings",
+        "room": "GYM 6",
+        "days": ["A", "C", "D", "G"]
+    },
+    {
+        "class": "AP Physics 2",
+        "teacher": "Mr. Reardon",
+        "room": "G202",
+        "days": ["B", "C", "E", "F", "G"]
+    }
+]
