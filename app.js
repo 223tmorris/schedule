@@ -1,4 +1,4 @@
-const vue_app = Vue.createApp({
+const app = Vue.createApp({
     // Imports JSON file
     created () {
           fetch('schedule.json').then(response => response.json()).then(json => {
@@ -18,4 +18,4 @@ const vue_app = Vue.createApp({
     }
 })
 
-vue_app.mount("#vue_app")
+app.mount("#app")

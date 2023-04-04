@@ -1,0 +1,11 @@
+table, tr{
+    border: 1px solid;
+    margin-top: 30px;
+}
+td{
+    padding-right: 30px;
+}
+button{
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+}
