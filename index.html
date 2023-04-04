@@ -16,13 +16,13 @@
             <br>
             <h1>School Block Schedule</h1>
             <hr>
-            <button class="btn btn-primary">A</button>
-            <button class="btn btn-primary">B</button>
-            <button class="btn btn-primary">C</button>
-            <button class="btn btn-primary">D</button>
-            <button class="btn btn-primary">E</button>
-            <button class="btn btn-primary">F</button>
-            <button class="btn btn-primary">G</button>
+            <button @click="filter('A')" class="btn btn-primary">A</button>
+            <button @click="filter('B')" class="btn btn-primary">B</button>
+            <button @click="filter('C')" class="btn btn-primary">C</button>
+            <button @click="filter('D')" class="btn btn-primary">D</button>
+            <button @click="filter('E')" class="btn btn-primary">E</button>
+            <button @click="filter('F')" class="btn btn-primary">F</button>
+            <button @click="filter('G')" class="btn btn-primary">G</button>
             <br>
         </div>
         <table>
@@ -35,11 +35,11 @@
                 </tr>
             </thead>
 
-            <tbody>
-                    <td>{{ schedule[0].class }}</td>
-                    <td>{{ schedule[0].teacher }}</td>
-                    <td>{{ schedule[0].room }}</td>
-                    <td>{{ schedule[0].days }}</td>
+            <tbody v-for="item in daySchedule">
+                    <td>{{ item.class }}</td>
+                    <td>{{ item.teacher }}</td>
+                    <td>{{ item.room }}</td>
+                    <td>{{ item.days }}</td>
             </tbody>
         </table>
     </div>
@@ -47,13 +47,3 @@
     <script src="app.js"></script>
 </body>
 </html>
-
-<!--
-                <td class="a" @click="">A</td>
-                <td class="b">B</td>
-                <td class="c">C</td>
-                <td class="d">D</td>
-                <td class="e">E</td>
-                <td class="f">F</td>
-                <td class="g">G</td>
--->

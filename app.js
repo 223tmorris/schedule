@@ -9,12 +9,18 @@ const app = Vue.createApp({
       return {
           // This holds the schedule.json data.
           schedule: [],
-          test: "hello"
-       
+          daySchedule: []
     }
   },
     methods: {
-          
+      filter(letter){
+            this.daySchedule.length = 0
+            for(let i = 0; i < this.schedule.length; i++){
+                  if(this.schedule[i].days.includes(letter)){
+                        this.daySchedule.push(this.schedule[i])
+                  }
+            }
+          }
     }
 })
 
